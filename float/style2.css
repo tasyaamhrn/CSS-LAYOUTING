@@ -23,5 +23,28 @@
     width: 150px;
     height:500px;
     background-color: darksalmon;
-    float:left;
+    float:right;
+}
+/* ini menggunakan div kosong dengan nama class clear
+.clear{
+    clear:both;
+} */
+/* dan cara di bawah ini dengan menggunakan teknik micro clear fix paling di sarankan
+tgl copy ajaaaa tapi jangan lupa tambahkan cf di dalam elemen yang ingin dibersihkan floatnya  */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
