@@ -1,0 +1,37 @@
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: darkgrey;
+    /* shorthand=menyingkat penulisan margin
+    margin:50px; berarti kita membuat ke empat sisi margin menjadi 50px 
+    */
+    margin:50px;
+   
+    
+}
+.dua{
+   width: 100px;
+   height:100px;
+   background-color:bisque ; 
+   /* shorthand=menyingkat penulisan margin
+    margin: 50px 100px; value pertama itu untuk atas dan bawah,value kedua itu untuk kiri dan kanan*/
+    margin: 50px 100px;
+
+  
+   
+}
+.tiga{
+    width: 50px;
+   height:50px;
+   background-color:chocolate ; 
+   /* shorthand=menyingkat penulisan margin
+    margin: 30px 50px 40px; value pertama itu untuk atas ,value kedua itu untuk kiri dan kanan
+    value ketiga itu untuk bawah*/
+   margin: 30px 50px 40px;
+   /* margin: 10px 20px 30px 40px value pertama atas
+   value kedua kanan
+   value ketiga bawah
+   value ke empat kiri
+    */
+}
