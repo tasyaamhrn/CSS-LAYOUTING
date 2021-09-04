@@ -1,0 +1,27 @@
+
+    /*urutan padding atas kanan bawah kiri */
+    /* padding: 10px 20px 30px 40px; */
+    /* cara penulisan border yg pertama itu ketebalannya,lalu stylenya,lalu warnanya */
+    /* jika yg diborder hanya salah satu sisi saja bisa gunakan
+    border-left,border-right,border-bottom */
+
+div{
+        width: 600px;
+        margin:10px auto;
+        /* text-sizing:border-box membuat lebar dr kotaknya tetap 600px berapapun padding dan border yg digunakan  */
+        box-sizing:border-box;
+        
+}
+
+.satu{
+    
+    background-color: teal;
+    padding:10px;
+    border: 10px solid red;
+}
+.dua{
+    
+    background-color: grey;
+    padding: 30px;
+    border:10px dashed orange;
+}
